@@ -1,0 +1,12 @@
+[package]
+name = "matched_trading"
+version = "0.1.0"
+authors = ["Jeff <200006506@qq.com>"]
+
+[dependencies]
+rust_decimal = "0.10.1"
+num-traits = "0.2.5"
+jsonrpc-http-server = { git = "https://github.com/paritytech/jsonrpc" }
+serde = "1.0.75"
+serde_json = "1.0.31"
+serde_derive = "1.0.75"
