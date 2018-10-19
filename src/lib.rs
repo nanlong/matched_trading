@@ -23,7 +23,7 @@ use std::ops::{AddAssign, SubAssign};
 use rust_decimal::Decimal;
 use num_traits::cast::FromPrimitive;
 use num_traits::ToPrimitive;
-use serde::ser::{Serialize, SerializeStruct, Serializer};
+use serde::ser::{Serialize, Serializer};
 
 #[allow(dead_code)]
 enum Rounding {
